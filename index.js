@@ -12,7 +12,8 @@ const c = 2
 console.log(c);
 //c = 5;
 //console.log('second c:',c) or console.log({c})
-// cannot be reassigned or replaced
+// const cannot be reassigned or replaced
+
 let person;
 console.log({person})
 person = 'Amanda'
