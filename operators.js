@@ -57,3 +57,6 @@ console.log({e});
 let f = Number(c);
 console.log({f})
 console.log(typeof{f})
+
+let m = 23
+console.log(++m)
