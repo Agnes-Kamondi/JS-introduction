@@ -54,6 +54,7 @@ console.log(cars)
 
 const car ={ type: "fiat", model:"500" ,color: "white"};
 console.log(car)
+console.log(typeof(car))
 
 let text1 = 'John'
 let text2 = 'Doe'
@@ -118,3 +119,8 @@ console.log(fit)
 console.log(person)
 console.log(person[2])
 console.log(person.charAt(0))
+
+let vt = "Range rover"
+let ve = 2027
+let rf = `My dream car is ${vt} and I will buy it in ${ve}`
+console.log("Dream :",rf)

@@ -36,6 +36,10 @@ multiply(3,6);
     console.log("Phenomenal")
 })();
 
+(function(){
+    console.log("That girl")
+})();
+
 
 const greet = function(){
     console.log("Hello There")
@@ -53,6 +57,7 @@ hen()
 const nam = 20;
 function addition(num1,num2){
    const nem = num1 + num2;
+   console.log("num-in",nam)
    console.log({console:nem });
    return{return : nem};
 }
@@ -71,3 +76,25 @@ function dditiob(nm, nu){
 }
 console.log(dditiob(20,40))
 
+
+function addition (num,num1){
+    let sum = num + num1
+    console.log(sum)
+    return { return : sum}
+}
+console.log(addition(1000,2000))
+
+let multiply1 = function (num, nam){
+    let times = num * nam
+    console.log(times)
+    return {return : times}
+}
+console.log(multiply1(10,5000))
+
+const division = (num, nem) => console.log(num/nem)
+division(100000,50)
+
+const hey = function(){
+    console.log("Hey Agnes")
+}
+hey()

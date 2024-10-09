@@ -47,6 +47,8 @@ console.log({a});
 let d = +c ;
 console.log({c});
 console.log({d});
+console.log(typeof(d))
+console.log(typeof({d}))
 // here the operator + has been used to change the data type of c to a number.
 
 let e = c *1 ;
@@ -57,6 +59,7 @@ console.log({e});
 let f = Number(c);
 console.log({f})
 console.log(typeof{f})
+
 
 let m = 23
 console.log(++m)

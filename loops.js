@@ -9,6 +9,33 @@ const multiply = (numbers) => {
 };
 console.log(multiply([2,3,4,6,7]))
 
+const personAge =function (age){
+    if( age >=18){
+        console.log("You are an adult")
+    }
+    else if (age >= 13 && age <=18){
+        console.log("You are a teenager")
+    }
+    else{
+        console.log("You are a child")
+    }
+}
+personAge(10)
+
+const personAge1 = (place) =>{
+    switch(place){
+        case "Rwanda":
+            console.log("You are Rwandan")
+            break;
+        case "Kenya":
+            console.log("You are Kenyan")  
+            break;
+         default:
+         console.log ("Invalid")  
+    }
+}
+personAge(Kenya)
+
 
 const totalSum = (arrayNums) => {
     let sum = 0 ;
